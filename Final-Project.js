@@ -56,7 +56,7 @@ let x;
 let images = ['bg1.webp','bg2.webp','bg3.webp','bg4.webp','bg5.jpg']
 on.onclick = ()=>{
     x = setInterval(function(){
-        header.style.background = "linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)) , url(../images/" + images[Math.floor(Math.random() * images.length)] + ") no-repeat fixed center";
+        header.style.background = "linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)) , url(images/" + images[Math.floor(Math.random() * images.length)] + ") no-repeat fixed center";
         header.style.backgroundSize='cover'
     },4000)
     

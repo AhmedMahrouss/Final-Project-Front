@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'cairo';
-    src: url('../fonts/Cairo-ExtraLight.ttf');
+    src: url('fonts/Cairo-ExtraLight.ttf');
     font-weight: 200;
 }
 @font-face {
     font-family: 'cairo';
-    src: url('../fonts/Cairo-Light.ttf');
+    src: url('fonts/Cairo-Light.ttf');
     font-weight: 300;
 }
 @font-face {
     font-family: 'cairo';
-    src: url('../fonts/Cairo-SemiBold.ttf');
+    src: url('fonts/Cairo-SemiBold.ttf');
     font-weight: 600;
 }
 :root {
@@ -34,7 +34,7 @@ overflow-x: hidden;
 header{
 width: 100%;
 min-height: 100vh;
-background: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)) , url(../images/bg1.webp) no-repeat fixed center;
+background: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)) , url(images/bg1.webp) no-repeat fixed center;
 background-size:cover;
 }
 nav{
